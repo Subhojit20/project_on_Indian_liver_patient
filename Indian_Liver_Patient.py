@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
 
 import numpy as np
 import pandas as pd
@@ -95,13 +90,5 @@ plt.show()
 #sensitivity,specification at various probability thresholds
 pd.options.display.max_rows=200
 pd.DataFrame({'Sensitivity':tpr,'1-Specification':fpr,'thresholds':thresholds})
-
-
-
-
-
-
-
-
 
 
